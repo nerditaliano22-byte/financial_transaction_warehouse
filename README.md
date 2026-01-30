@@ -83,9 +83,10 @@ financial-transaction-warehouse/
 ├── data/                  # Raw inputs & Star Schema outputs (CSV)
 ├── notebooks/             # Jupyter Notebooks for EDA & Prototyping
 ├── src/
-│   └── etl.py             # Core ETL logic (Pandas)
-├── app.py                 # Streamlit Dashboard Entry Point
-├── Dockerfile             # Container definition
-├── docker-compose.yml     # Service orchestration
-├── requirements.txt       # Python dependencies
-└── README.md              # Project Documentation
+│   └── etl.py             
+├── app.py                 # Streamlit Dashboard
+├── Dockerfile             
+├── docker-compose.yml     
+├── STAR_SCHEMA.png        
+├── requirements.txt       
+└── README.md              
